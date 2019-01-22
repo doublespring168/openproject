@@ -40,7 +40,7 @@ export class GlobalSearchService {
   private _currentTab = new BehaviorSubject<any>('work_packages');
   public currentTab$ = this._currentTab.asObservable();
 
-  private _projectScope = new BehaviorSubject<any>('all');
+  private _projectScope = new BehaviorSubject<any>('');
   public projectScope$ = this._projectScope.asObservable();
 
   private _tabs = new BehaviorSubject<any>([]);

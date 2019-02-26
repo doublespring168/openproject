@@ -1,7 +1,0 @@
-#!/bin/bash -e
-
-if [ "$1" = "--seed" ]; then
-	shift
-	bundle exec rake db:migrate db:seed
-fi
-exec bundle exec rake jobs:work

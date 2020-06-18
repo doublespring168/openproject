@@ -136,9 +136,9 @@ See docs/COPYRIGHT.rdoc for more details.
             <%= I18n.t('js.work_packages.jump_marks.content') %>
           </a>
           <%= render_top_menu_left %>
-          <div id="logo" class="hidden-for-mobile">
-            <%= link_to(I18n.t('label_home'), fixed_home_url, class: 'home-link') %>
-          </div>
+<!--          <div id="logo" class="hidden-for-mobile">-->
+            <%#= link_to(I18n.t('label_home'), fixed_home_url, class: 'home-link') %>
+<!--          </div>-->
           <%= call_hook :view_layouts_base_top_menu %>
           <div class="top-menu-items-right">
             <%= render partial: 'search/mini_form' %>

@@ -1,4 +1,4 @@
-  {
+{
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
@@ -146,5 +146,8 @@
     "@schematics/angular:directive": {
       "prefix": "app"
     }
+  },
+  "cli": {
+    "analytics": "b80f0e6e-8268-409e-847f-683133266f22"
   }
 }

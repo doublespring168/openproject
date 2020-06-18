@@ -291,6 +291,7 @@ gem 'roar', '~> 1.1.0'
 
 platforms :mri, :mingw, :x64_mingw do
   group :postgres do
+    # darcy 屏蔽pg依赖
     gem 'pg', '~> 1.2.2'
   end
 

@@ -32,16 +32,19 @@ See docs/COPYRIGHT.rdoc for more details.
     <%= Version.human_attribute_name(:start_date) %> <%= h(format_date(version.start_date)) %>
   <% end %>
   <% if version.due_date %>
-      <br>
+    &nbsp;,&nbsp;
     <%= Version.human_attribute_name(:due_date) %> <%= h(format_date(version.due_date)) %>
   <% end %>
+
+  <% if !version.completed? && version.due_date %>
+    &nbsp;,&nbsp;
+    <strong><%= due_date_distance_in_words(version.effective_date) %></strong>
+  <% end %>
+
 </p>
 
-<% if !version.completed? && version.due_date %>
-  <p><strong><%= due_date_distance_in_words(version.effective_date) %></strong></p>
-<% end %>
 
-<p><%=h version.description %></p>
+<p><%= h version.description %></p>
 
 <% if version.custom_values.count > 0 %>
   <ul>
@@ -55,17 +58,20 @@ See docs/COPYRIGHT.rdoc for more details.
 
 <% if version.work_packages.count > 0 %>
   <%= progress_bar([version.closed_percent, version.completed_percent], width: '40%', legend: ('%0.0f' % version.completed_percent)) %>
-  <p class="progress-info">
+
+  <span class="progress-bar-legend">
+  ,&nbsp;
     <%= link_to_if(version.closed_issues_count > 0,
                    l(:label_x_closed_work_packages_abbr, count: version.closed_issues_count),
                    project_work_packages_closed_version_path(version)) %>
     (<%= '%0.0f' % (version.closed_issues_count.to_f / version.work_packages.count * 100) %>%)
     &#160;
+  ,&nbsp;
     <%= link_to_if(version.open_issues_count > 0,
                    l(:label_x_open_work_packages_abbr, count: version.open_issues_count),
                    project_work_packages_open_version_path(version)) %>
     (<%= '%0.0f' % (version.open_issues_count.to_f / version.work_packages.count * 100) %>%)
-  </p>
+    </span>
 <% else %>
   <%= no_results_box %>
 <% end %>

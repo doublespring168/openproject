@@ -30,6 +30,8 @@
 require 'open_project/static/homescreen'
 require 'open_project/static/links'
 
+# 屏蔽首页模块 @Darcy
+#
 OpenProject::Static::Homescreen.manage :blocks do |blocks|
   blocks.push(
     {
@@ -39,10 +41,10 @@ OpenProject::Static::Homescreen.manage :blocks do |blocks|
     {
       partial: 'projects'
     },
-    {
-      partial: 'new_features',
-      if: Proc.new { OpenProject::Configuration.show_community_links? }
-    },
+    # {
+    #   partial: 'new_features',
+    #   if: Proc.new { OpenProject::Configuration.show_community_links? }
+    # },
     {
       partial: 'users',
       if: Proc.new { User.current.admin? }
@@ -55,18 +57,18 @@ OpenProject::Static::Homescreen.manage :blocks do |blocks|
       partial: 'news',
       if: Proc.new { !@news.empty? }
     },
-    {
-      partial: 'community',
-      if: Proc.new { EnterpriseToken.show_banners? || OpenProject::Configuration.show_community_links? }
-    },
+    # {
+    #   partial: 'community',
+    #   if: Proc.new { EnterpriseToken.show_banners? || OpenProject::Configuration.show_community_links? }
+    # },
     {
       partial: 'administration',
       if: Proc.new { User.current.admin? }
     },
-    {
-      partial: 'upsale',
-      if: Proc.new { EnterpriseToken.show_banners? }
-    }
+    # {
+    #   partial: 'upsale',
+    #   if: Proc.new { EnterpriseToken.show_banners? }
+    # }
   )
 end
 

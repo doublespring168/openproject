@@ -36,6 +36,7 @@ module HomescreenHelper
 
   ##
   # Homescreen organization icon
+  # 首页组织图标 @darcy
   def organization_icon
     op_icon('icon-context icon-enterprise')
   end

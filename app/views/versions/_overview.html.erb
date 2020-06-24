@@ -42,13 +42,16 @@ See docs/COPYRIGHT.rdoc for more details.
 <% end %>
 
 <p><%=h version.description %></p>
-<ul>
-  <% version.custom_values.each do |custom_value| %>
-    <% if !custom_value.value.blank? %>
-      <li><%=h custom_value.custom_field.name %>: <%=h show_value(custom_value) %></li>
+
+<% if version.custom_values.count > 0 %>
+  <ul>
+    <% version.custom_values.each do |custom_value| %>
+      <% if !custom_value.value.blank? %>
+        <li><%= h custom_value.custom_field.name %>: <%= h show_value(custom_value) %></li>
+      <% end %>
     <% end %>
-  <% end %>
-</ul>
+  </ul>
+<% end %>
 
 <% if version.work_packages.count > 0 %>
   <%= progress_bar([version.closed_percent, version.completed_percent], width: '40%', legend: ('%0.0f' % version.completed_percent)) %>

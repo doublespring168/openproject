@@ -81,7 +81,7 @@ class CopyProjectsController < ApplicationController
   end
 
   def enqueue_copy_job
-    CopyProjectJob.perform_later(user_id: User.current.id,
+    CopyProjectJob.perform_now(user_id: User.current.id,
                                  source_project_id: @project.id,
                                  target_project_params: target_project_params,
                                  associations_to_copy: params[:only],

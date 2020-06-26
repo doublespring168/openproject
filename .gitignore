@@ -55,8 +55,6 @@ npm-debug.log*
 /app/assets/javascripts/editor/*
 /app/assets/javascripts/locales/*.*
 /config/additional_environment.rb
-/config/configuration.yml
-/config/database.yml
 /config/email.yml
 /config/secret_token.yml
 /config/frontend_assets.manifest.json
@@ -100,3 +98,4 @@ node_modules/
 /package-lock.json
 plaintext.yml
 structure.sql
+.generators

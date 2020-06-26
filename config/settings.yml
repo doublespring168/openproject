@@ -363,7 +363,7 @@ demo_projects_available:
 boards_demo_data_available:
   default: false
 security_badge_displayed:
-  default: true
+  default: false
 installation_uuid:
   default: null
 oauth_allow_remapping_of_existing_users:

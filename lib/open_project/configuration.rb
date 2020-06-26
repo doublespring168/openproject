@@ -142,7 +142,7 @@ module OpenProject
       'registration_footer' => {},
 
       # Display update / security badge, enabled by default
-      'security_badge_displayed' => true,
+      'security_badge_displayed' => false,
       'installation_type' => "manual",
       'security_badge_url' => "https://releases.openproject.com/v1/check.svg",
 

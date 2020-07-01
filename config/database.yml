@@ -41,6 +41,8 @@ development:
   pool: 5
   username: oppj
   password: oppj
+  host: 192.168.0.100
+  port: 5436
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

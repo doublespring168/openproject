@@ -1,0 +1,135 @@
+/* line 1, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_new_types.sass */
+.mobile-otp-new-devices {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+}
+
+/* line 6, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_new_types.sass */
+.mobile-otp-new-device {
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+  margin-right: 10px;
+  flex: 1 0 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 16, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_new_types.sass */
+.mobile-otp-new-device h2 {
+  border-bottom: none;
+}
+
+/* line 19, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_new_types.sass */
+.mobile-otp-new-device--body {
+  flex: 1;
+}
+
+/* line 2, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_totp.sass */
+.mobile-otp-qr-form {
+  display: flex;
+  margin: 2rem 0;
+}
+
+/* line 6, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_totp.sass */
+.mobile-otp-qr-form .qr-code-element {
+  margin-right: 50px;
+}
+
+/* line 9, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_totp.sass */
+.mobile-otp-qr-manually {
+  align-self: center;
+}
+
+/* line 13, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/_totp.sass */
+.qr-code-element {
+  padding: 5px;
+}
+
+/* line 4, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#login-form input[type=radio] {
+  float: left;
+}
+
+/* line 7, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#resend_otp_container {
+  margin-top: 30px;
+}
+
+/* line 10, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#resend_otp_container input[type=radio] {
+  margin-right: 8px;
+}
+
+/* line 13, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#resend_otp_container label {
+  margin-right: 10px;
+}
+
+/* line 16, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#resend_otp_container .resend-header {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* line 21, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#resend_otp_container .radios-wrapper {
+  padding-top: 7px;
+  float: left;
+  border: none;
+  overflow: hidden;
+  clear: none;
+}
+
+/* line 29, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#resend_otp_container .radios-wrapper label {
+  float: left;
+  clear: none;
+  display: block;
+  padding: 2px 1em 0 0;
+}
+
+/* line 36, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+#resend_otp_container .radios-wrapper input[type=radio] {
+  float: left;
+  clear: none;
+  margin: 2px 0 15px 2px;
+}
+
+/* line 43, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+.mobile-otp--two-factor-device-row td.buttons form:not(:last-child):after {
+  content: ",";
+  padding: 0 1px;
+}
+
+/* line 48, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+.mobile-otp--two-factor-device-row.-default .mobile-otp--device-text {
+  font-weight: bold;
+}
+
+/* line 53, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+.two-factor-authentication--backup-codes {
+  max-width: 500px;
+  margin: 2rem 0;
+  background: #f8f8f8;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+}
+
+/* line 61, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+.two-factor-authentication--backup-codes ul {
+  padding: 10px;
+  margin: 0;
+  column-count: 2;
+  column-gap: 50px;
+  list-style: none;
+  font-family: monospace;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* line 70, modules/two_factor_authentication/app/assets/stylesheets/two_factor_authentication/two_factor_authentication.sass */
+.two-factor-authentication--backup-codes li {
+  padding: 5px;
+}

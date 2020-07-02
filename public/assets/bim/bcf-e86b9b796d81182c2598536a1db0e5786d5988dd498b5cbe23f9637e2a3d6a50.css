@@ -1,0 +1,34 @@
+/* line 1, modules/bim/app/assets/stylesheets/bim/bcf.sass */
+.bcf--issues {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* line 6, modules/bim/app/assets/stylesheets/bim/bcf.sass */
+.bcf--issues > div {
+  flex: 0 0 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* line 10, modules/bim/app/assets/stylesheets/bim/bcf.sass */
+.bcf--issues > div.-failed {
+  border: 1px solid #EAEAEA;
+}
+
+/* line 13, modules/bim/app/assets/stylesheets/bim/bcf.sass */
+.bcf--issues img {
+  width: 100%;
+}
+
+/* line 16, modules/bim/app/assets/stylesheets/bim/bcf.sass */
+.bcf--import-listing {
+  margin-bottom: 50px;
+}
+
+/* line 20, modules/bim/app/assets/stylesheets/bim/bcf.sass */
+table.attributes-table td, table.attributes-table th {
+  padding: 5px;
+  text-align: center;
+}

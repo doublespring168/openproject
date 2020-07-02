@@ -1,0 +1,470 @@
+@charset "UTF-8";
+/*-- copyright
+ * OpenProject Backlogs Plugin
+ *
+ * Copyright (C)2013 the OpenProject Foundation (OPF)
+ * Copyright (C)2011 Stephan Eckardt, Tim Felgentreff, Marnen Laibow-Koser, Sandro Munda
+ * Copyright (C)2010-2011 friflaj
+ * Copyright (C)2010 Maxime Guilbot, Andrew Vit, Joakim Kolsjö, ibussieres, Daniel Passos, Jason Vasquez, jpic, Emiliano Heyns
+ * Copyright (C)2009-2010 Mark Maglana
+ * Copyright (C)2009 Joe Heck, Nate Lowrie
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License version 3.
+ *
+ * OpenProject Backlogs is a derivative work based on ChiliProject Backlogs.
+ * The copyright follows:
+ * Copyright (C) 2010-2011 - Emiliano Heyns, Mark Maglana, friflaj
+ * Copyright (C) 2011 - Jens Ulferts, Gregor Schmidt - Finn GmbH - Berlin, Germany
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ * See docs/COPYRIGHT.rdoc for more details.
+ */
+/*-- copyright
+OpenProject Backlogs Plugin
+
+Copyright (C)2013-2014 the OpenProject Foundation (OPF)
+Copyright (C)2011 Stephan Eckardt, Tim Felgentreff, Marnen Laibow-Koser, Sandro Munda
+Copyright (C)2010-2011 friflaj
+Copyright (C)2010 Maxime Guilbot, Andrew Vit, Joakim Kolsjö, ibussieres, Daniel Passos, Jason Vasquez, jpic, Emiliano Heyns
+Copyright (C)2009-2010 Mark Maglana
+Copyright (C)2009 Joe Heck, Nate Lowrie
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License version 3.
+
+OpenProject Backlogs is a derivative work based on ChiliProject Backlogs.
+The copyright follows:
+Copyright (C) 2010-2011 - Emiliano Heyns, Mark Maglana, friflaj
+Copyright (C) 2011 - Jens Ulferts, Gregor Schmidt - Finn GmbH - Berlin, Germany
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See docs/COPYRIGHT.rdoc for more details.
+
+++*/
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+#rb .meta {
+  display: none;
+}
+
+/* line 40, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+#rb #helpers {
+  display: none;
+}
+
+/*
+  .editor is the classname for field editors of sprint,
+  story, task, impediment. These field editors get created
+  at runtime whenever any of the above models are edited.
+*/
+/* line 48, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+#rb .editors {
+  display: none;
+}
+
+/* line 51, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+#rb .ui-dialog .editor {
+  display: block;
+}
+
+/* dialog */
+/* line 56, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+.ui-dialog .ui-dialog-title {
+  float: left;
+  margin-right: 0;
+}
+
+/* line 57, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+.ui-dialog.ui-widget-content {
+  border: none;
+}
+
+/* line 58, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+.ui-dialog .ui-dialog-buttonpane.ui-widget-content {
+  border: none;
+}
+
+/* line 60, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+.subject-input {
+  width: 99%;
+}
+
+/* line 64, modules/backlogs/app/assets/stylesheets/backlogs/global.css */
+th {
+  font-weight: bold;
+}
+
+/*-- copyright
+OpenProject Backlogs Plugin
+
+Copyright (C)2013-2014 the OpenProject Foundation (OPF)
+Copyright (C)2011 Stephan Eckardt, Tim Felgentreff, Marnen Laibow-Koser, Sandro Munda
+Copyright (C)2010-2011 friflaj
+Copyright (C)2010 Maxime Guilbot, Andrew Vit, Joakim Kolsjö, ibussieres, Daniel Passos, Jason Vasquez, jpic, Emiliano Heyns
+Copyright (C)2009-2010 Mark Maglana
+Copyright (C)2009 Joe Heck, Nate Lowrie
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License version 3.
+
+OpenProject Backlogs is a derivative work based on ChiliProject Backlogs.
+The copyright follows:
+Copyright (C) 2010-2011 - Emiliano Heyns, Mark Maglana, friflaj
+Copyright (C) 2011 - Jens Ulferts, Gregor Schmidt - Finn GmbH - Berlin, Germany
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See docs/COPYRIGHT.rdoc for more details.
+
+++*/
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/global_print.css */
+#toolbar .links {
+  display: none !important;
+}
+
+/*-- copyright
+OpenProject Backlogs Plugin
+
+Copyright (C)2013-2014 the OpenProject Foundation (OPF)
+Copyright (C)2011 Stephan Eckardt, Tim Felgentreff, Marnen Laibow-Koser, Sandro Munda
+Copyright (C)2010-2011 friflaj
+Copyright (C)2010 Maxime Guilbot, Andrew Vit, Joakim Kolsjö, ibussieres, Daniel Passos, Jason Vasquez, jpic, Emiliano Heyns
+Copyright (C)2009-2010 Mark Maglana
+Copyright (C)2009 Joe Heck, Nate Lowrie
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License version 3.
+
+OpenProject Backlogs is a derivative work based on ChiliProject Backlogs.
+The copyright follows:
+Copyright (C) 2010-2011 - Emiliano Heyns, Mark Maglana, friflaj
+Copyright (C) 2011 - Jens Ulferts, Gregor Schmidt - Finn GmbH - Berlin, Germany
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See docs/COPYRIGHT.rdoc for more details.
+
+++*/
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-target {
+  position: relative;
+  color: #666;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  font-size: 1em;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-axis {
+  font-size: .75em;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-xaxis {
+  margin-top: 10px;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-x2axis {
+  margin-bottom: 10px;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-yaxis {
+  margin-right: 10px;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-y2axis, .jqplot-y3axis, .jqplot-y4axis, .jqplot-y5axis, .jqplot-y6axis, .jqplot-y7axis, .jqplot-y8axis, .jqplot-y9axis {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-axis-tick, .jqplot-xaxis-tick, .jqplot-yaxis-tick, .jqplot-x2axis-tick, .jqplot-y2axis-tick, .jqplot-y3axis-tick, .jqplot-y4axis-tick, .jqplot-y5axis-tick, .jqplot-y6axis-tick, .jqplot-y7axis-tick, .jqplot-y8axis-tick, .jqplot-y9axis-tick {
+  position: absolute;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-xaxis-tick {
+  top: 0;
+  left: 15px;
+  vertical-align: top;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-x2axis-tick {
+  bottom: 0;
+  left: 15px;
+  vertical-align: bottom;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-yaxis-tick {
+  right: 0;
+  top: 15px;
+  text-align: right;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-y2axis-tick, .jqplot-y3axis-tick, .jqplot-y4axis-tick, .jqplot-y5axis-tick, .jqplot-y6axis-tick, .jqplot-y7axis-tick, .jqplot-y8axis-tick, .jqplot-y9axis-tick {
+  left: 0;
+  top: 15px;
+  text-align: left;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-xaxis-label {
+  margin-top: 10px;
+  font-size: 11pt;
+  position: absolute;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-x2axis-label {
+  margin-bottom: 10px;
+  font-size: 11pt;
+  position: absolute;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-yaxis-label {
+  margin-right: 10px;
+  font-size: 11pt;
+  position: absolute;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-y2axis-label, .jqplot-y3axis-label, .jqplot-y4axis-label, .jqplot-y5axis-label, .jqplot-y6axis-label, .jqplot-y7axis-label, .jqplot-y8axis-label, .jqplot-y9axis-label {
+  font-size: 11pt;
+  position: absolute;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+table.jqplot-table-legend, table.jqplot-cursor-legend {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #ccc;
+  position: absolute;
+  font-size: .75em;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+td.jqplot-table-legend {
+  vertical-align: middle;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+td.jqplot-table-legend > div {
+  border: 1px solid #ccc;
+  padding: .2em;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+div.jqplot-table-legend-swatch {
+  width: 0;
+  height: 0;
+  border-top-width: .35em;
+  border-bottom-width: .35em;
+  border-left-width: .6em;
+  border-right-width: .6em;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-title {
+  top: 0;
+  left: 0;
+  padding-bottom: .5em;
+  font-size: 1.2em;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+table.jqplot-cursor-tooltip {
+  border: 1px solid #ccc;
+  font-size: .75em;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-cursor-tooltip {
+  border: 1px solid #ccc;
+  font-size: .75em;
+  white-space: nowrap;
+  background: rgba(208, 208, 208, 0.5);
+  padding: 1px;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-highlighter-tooltip {
+  border: 1px solid #ccc;
+  font-size: .75em;
+  white-space: nowrap;
+  background: rgba(208, 208, 208, 0.5);
+  padding: 1px;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+.jqplot-point-label {
+  font-size: .75em;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+td.jqplot-cursor-legend-swatch {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/jqplot.css */
+div.jqplot-cursor-legend-swatch {
+  width: 1.2em;
+  height: .7em;
+}
+
+/*-- copyright
+OpenProject Backlogs Plugin
+
+Copyright (C)2013-2014 the OpenProject Foundation (OPF)
+Copyright (C)2011 Stephan Eckardt, Tim Felgentreff, Marnen Laibow-Koser, Sandro Munda
+Copyright (C)2010-2011 friflaj
+Copyright (C)2010 Maxime Guilbot, Andrew Vit, Joakim Kolsjö, ibussieres, Daniel Passos, Jason Vasquez, jpic, Emiliano Heyns
+Copyright (C)2009-2010 Mark Maglana
+Copyright (C)2009 Joe Heck, Nate Lowrie
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License version 3.
+
+OpenProject Backlogs is a derivative work based on ChiliProject Backlogs.
+The copyright follows:
+Copyright (C) 2010-2011 - Emiliano Heyns, Mark Maglana, friflaj
+Copyright (C) 2011 - Jens Ulferts, Gregor Schmidt - Finn GmbH - Berlin, Germany
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See docs/COPYRIGHT.rdoc for more details.
+
+++*/
+/* line 37, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score {
+  text-align: center;
+  width: 1.5em;
+  font-size: large;
+  display: inline-block;
+}
+
+/* line 38, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_0 {
+  background-color: #FF0000;
+}
+
+/* line 39, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_1 {
+  background-color: #FF5300;
+}
+
+/* line 40, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_2 {
+  background-color: #FF8100;
+}
+
+/* line 41, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_3 {
+  background-color: #FFA100;
+}
+
+/* line 42, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_4 {
+  background-color: #FFBB00;
+}
+
+/* line 43, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_5 {
+  background-color: #FFD300;
+}
+
+/* line 44, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_6 {
+  background-color: #FFEC00;
+}
+
+/* line 45, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_7 {
+  background-color: #E9FB00;
+}
+
+/* line 46, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_8 {
+  background-color: #B1F100;
+}
+
+/* line 47, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_9 {
+  background-color: #74E600;
+}
+
+/* line 48, modules/backlogs/app/assets/stylesheets/backlogs/statistics.css */
+.score_10 {
+  background-color: #00CC00;
+}

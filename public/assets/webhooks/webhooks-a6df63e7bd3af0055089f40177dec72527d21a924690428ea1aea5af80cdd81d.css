@@ -1,0 +1,20 @@
+/* line 1, modules/webhooks/app/assets/stylesheets/webhooks/webhooks.sass */
+.webhooks--delivery-success {
+  color: #019875;
+}
+
+/* line 4, modules/webhooks/app/assets/stylesheets/webhooks/webhooks.sass */
+.webhooks--delivery-error {
+  color: #c0392b;
+}
+
+/* line 7, modules/webhooks/app/assets/stylesheets/webhooks/webhooks.sass */
+.webhooks--response-body-modal {
+  min-width: 25vw;
+}
+
+/* line 10, modules/webhooks/app/assets/stylesheets/webhooks/webhooks.sass */
+.webhooks--response-body-modal pre {
+  background: #f1f1f1;
+  padding: 5px;
+}

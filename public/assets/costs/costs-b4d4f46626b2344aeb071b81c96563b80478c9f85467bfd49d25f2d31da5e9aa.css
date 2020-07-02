@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*-- copyright
+ * OpenProject Costs Plugin
+ *
+ * Copyright (C) 2009 - 2015 the OpenProject Foundation (OPF)
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * version 3.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ */
+/* line 23, modules/costs/app/assets/stylesheets/costs/costs.sass */
+.costs.costTypes .separator {
+  margin-left: -0.2em;
+}
+
+/* line 27, modules/costs/app/assets/stylesheets/costs/costs.sass */
+table.list.members .form--text-field.-tiny {
+  min-width: 60px;
+}
+
+/* line 30, modules/costs/app/assets/stylesheets/costs/costs.sass */
+.cost_object.details .attributes-key-value--value p {
+  margin-bottom: 0;
+}
+
+/* line 33, modules/costs/app/assets/stylesheets/costs/costs.sass */
+.progress-bar .inner-progress.done {
+  background-color: #E1B9B9;
+}
+
+/* line 36, modules/costs/app/assets/stylesheets/costs/costs.sass */
+.budget-row-template,
+.subform-row-template {
+  display: none;
+}
+
+/* line 40, modules/costs/app/assets/stylesheets/costs/costs.sass */
+.work-package--single-view div[data-group-name="成本"] {
+  display: none;
+}
+
+/* line 43, modules/costs/app/assets/stylesheets/costs/costs.sass */
+.work-package--single-view div[data-group-name="预估成本和时间"] {
+  display: none;
+}

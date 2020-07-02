@@ -1,0 +1,1758 @@
+@font-face {
+  font-family: "openproject-icon-font";
+  src: url("/assets/openproject_icon/openproject-icon-font.woff2") format("woff2"), url("/assets/openproject_icon/openproject-icon-font.woff") format("woff");
+}
+
+/* line 10, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-accessibility:before {
+  content: "\f101";
+}
+
+/* line 16, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-add:before {
+  content: "\f102";
+}
+
+/* line 22, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-align-center:before {
+  content: "\f103";
+}
+
+/* line 28, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-align-justify:before {
+  content: "\f104";
+}
+
+/* line 34, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-align-left:before {
+  content: "\f105";
+}
+
+/* line 40, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-align-right:before {
+  content: "\f106";
+}
+
+/* line 46, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-down1:before {
+  content: "\f107";
+}
+
+/* line 52, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-down2:before {
+  content: "\f108";
+}
+
+/* line 58, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-left-right:before {
+  content: "\f109";
+}
+
+/* line 64, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-left1:before {
+  content: "\f10a";
+}
+
+/* line 70, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-left2:before {
+  content: "\f10b";
+}
+
+/* line 76, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-left3:before {
+  content: "\f10c";
+}
+
+/* line 82, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-left4:before {
+  content: "\f10d";
+}
+
+/* line 88, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-right2:before {
+  content: "\f10e";
+}
+
+/* line 94, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-right3:before {
+  content: "\f10f";
+}
+
+/* line 100, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-right4:before {
+  content: "\f110";
+}
+
+/* line 106, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-right5:before {
+  content: "\f111";
+}
+
+/* line 112, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-right6:before {
+  content: "\f112";
+}
+
+/* line 118, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-right7:before {
+  content: "\f113";
+}
+
+/* line 124, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-thin:before {
+  content: "\f114";
+}
+
+/* line 130, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-up1:before {
+  content: "\f115";
+}
+
+/* line 136, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-arrow-up2:before {
+  content: "\f116";
+}
+
+/* line 142, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-assigned-to-me:before {
+  content: "\f117";
+}
+
+/* line 148, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-attachment:before {
+  content: "\f118";
+}
+
+/* line 154, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-attention:before {
+  content: "\f119";
+}
+
+/* line 160, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-back-up:before {
+  content: "\f11a";
+}
+
+/* line 166, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-backlogs:before {
+  content: "\f11b";
+}
+
+/* line 172, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-bcf:before {
+  content: "\f11c";
+}
+
+/* line 178, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-billing-information:before {
+  content: "\f11d";
+}
+
+/* line 184, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-boards:before {
+  content: "\f11e";
+}
+
+/* line 190, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-bold:before {
+  content: "\f11f";
+}
+
+/* line 196, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-budget:before {
+  content: "\f120";
+}
+
+/* line 202, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-bug:before {
+  content: "\f121";
+}
+
+/* line 208, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-calendar:before {
+  content: "\f122";
+}
+
+/* line 214, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-calendar2:before {
+  content: "\f123";
+}
+
+/* line 220, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-camera:before {
+  content: "\f124";
+}
+
+/* line 226, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-cancel:before {
+  content: "\f125";
+}
+
+/* line 232, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-cart:before {
+  content: "\f126";
+}
+
+/* line 238, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-changeset-down:before {
+  content: "\f127";
+}
+
+/* line 244, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-changeset-up:before {
+  content: "\f128";
+}
+
+/* line 250, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-changeset:before {
+  content: "\f129";
+}
+
+/* line 256, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-chart1:before {
+  content: "\f12a";
+}
+
+/* line 262, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-chart2:before {
+  content: "\f12b";
+}
+
+/* line 268, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-chart3:before {
+  content: "\f12c";
+}
+
+/* line 274, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-checkmark:before {
+  content: "\f12d";
+}
+
+/* line 280, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-close:before {
+  content: "\f12e";
+}
+
+/* line 286, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-code-tag:before {
+  content: "\f12f";
+}
+
+/* line 292, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-color-text:before {
+  content: "\f130";
+}
+
+/* line 298, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-color-underline:before {
+  content: "\f131";
+}
+
+/* line 304, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-column-left:before {
+  content: "\f132";
+}
+
+/* line 310, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-column-right:before {
+  content: "\f133";
+}
+
+/* line 316, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-columns:before {
+  content: "\f134";
+}
+
+/* line 322, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-compare2:before {
+  content: "\f135";
+}
+
+/* line 328, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-concept:before {
+  content: "\f136";
+}
+
+/* line 334, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-console:before {
+  content: "\f137";
+}
+
+/* line 340, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-contacts:before {
+  content: "\f138";
+}
+
+/* line 346, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-copy:before {
+  content: "\f139";
+}
+
+/* line 352, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-cost-reports:before {
+  content: "\f13a";
+}
+
+/* line 358, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-cost-types:before {
+  content: "\f13b";
+}
+
+/* line 364, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-cursor:before {
+  content: "\f13c";
+}
+
+/* line 370, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-custom-development:before {
+  content: "\f13d";
+}
+
+/* line 376, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-custom-fields:before {
+  content: "\f13e";
+}
+
+/* line 382, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-cut:before {
+  content: "\f13f";
+}
+
+/* line 388, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-delete-folder:before {
+  content: "\f140";
+}
+
+/* line 394, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-delete:before {
+  content: "\f141";
+}
+
+/* line 400, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-dependency:before {
+  content: "\f142";
+}
+
+/* line 406, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-design:before {
+  content: "\f143";
+}
+
+/* line 412, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-double-arrow-left:before {
+  content: "\f144";
+}
+
+/* line 418, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-double-arrow-right:before {
+  content: "\f145";
+}
+
+/* line 424, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-download:before {
+  content: "\f146";
+}
+
+/* line 430, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-drag-handle:before {
+  content: "\f147";
+}
+
+/* line 436, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-duplicate:before {
+  content: "\f148";
+}
+
+/* line 442, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-edit:before {
+  content: "\f149";
+}
+
+/* line 448, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-enterprise:before {
+  content: "\f14a";
+}
+
+/* line 454, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-enumerations:before {
+  content: "\f14b";
+}
+
+/* line 460, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-error:before {
+  content: "\f14c";
+}
+
+/* line 466, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-atom:before {
+  content: "\f14d";
+}
+
+/* line 472, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-bcf:before {
+  content: "\f14e";
+}
+
+/* line 478, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-csv:before {
+  content: "\f14f";
+}
+
+/* line 484, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-pdf-descr:before {
+  content: "\f150";
+}
+
+/* line 490, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-pdf-with-descriptions:before {
+  content: "\f151";
+}
+
+/* line 496, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-pdf:before {
+  content: "\f152";
+}
+
+/* line 502, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-xls-descr:before {
+  content: "\f153";
+}
+
+/* line 508, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-xls-with-descriptions:before {
+  content: "\f154";
+}
+
+/* line 514, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-xls-with-relations:before {
+  content: "\f155";
+}
+
+/* line 520, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export-xls:before {
+  content: "\f156";
+}
+
+/* line 526, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-export:before {
+  content: "\f157";
+}
+
+/* line 532, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-external-link:before {
+  content: "\f158";
+}
+
+/* line 538, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-faq:before {
+  content: "\f159";
+}
+
+/* line 544, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-filter:before {
+  content: "\f15a";
+}
+
+/* line 550, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-flag:before {
+  content: "\f15b";
+}
+
+/* line 556, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-folder-add:before {
+  content: "\f15c";
+}
+
+/* line 562, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-folder-locked:before {
+  content: "\f15d";
+}
+
+/* line 568, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-folder-open:before {
+  content: "\f15e";
+}
+
+/* line 574, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-folder-remove:before {
+  content: "\f15f";
+}
+
+/* line 580, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-folder:before {
+  content: "\f160";
+}
+
+/* line 586, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-forums:before {
+  content: "\f161";
+}
+
+/* line 592, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-from-fullscreen:before {
+  content: "\f162";
+}
+
+/* line 598, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-getting-started:before {
+  content: "\f163";
+}
+
+/* line 604, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-glossar:before {
+  content: "\f164";
+}
+
+/* line 610, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-google-plus:before {
+  content: "\f165";
+}
+
+/* line 616, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-group-by:before {
+  content: "\f166";
+}
+
+/* line 622, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-group:before {
+  content: "\f167";
+}
+
+/* line 628, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-hamburger:before {
+  content: "\f168";
+}
+
+/* line 634, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-headline1:before {
+  content: "\f169";
+}
+
+/* line 640, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-headline2:before {
+  content: "\f16a";
+}
+
+/* line 646, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-headline3:before {
+  content: "\f16b";
+}
+
+/* line 652, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-headset:before {
+  content: "\f16c";
+}
+
+/* line 658, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-help:before {
+  content: "\f16d";
+}
+
+/* line 664, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-help1:before {
+  content: "\f16e";
+}
+
+/* line 670, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-help2:before {
+  content: "\f16f";
+}
+
+/* line 676, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-hierarchy:before {
+  content: "\f170";
+}
+
+/* line 682, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-home:before {
+  content: "\f171";
+}
+
+/* line 688, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-hosting:before {
+  content: "\f172";
+}
+
+/* line 694, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ifc:before {
+  content: "\f173";
+}
+
+/* line 700, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-image1:before {
+  content: "\f174";
+}
+
+/* line 706, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-image2:before {
+  content: "\f175";
+}
+
+/* line 712, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-import:before {
+  content: "\f176";
+}
+
+/* line 718, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-info1:before {
+  content: "\f177";
+}
+
+/* line 724, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-info2:before {
+  content: "\f178";
+}
+
+/* line 730, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-input-disabled:before {
+  content: "\f179";
+}
+
+/* line 736, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-installation-services:before {
+  content: "\f17a";
+}
+
+/* line 742, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-italic:before {
+  content: "\f17b";
+}
+
+/* line 748, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-key:before {
+  content: "\f17c";
+}
+
+/* line 754, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-link:before {
+  content: "\f17d";
+}
+
+/* line 760, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-loading1:before {
+  content: "\f17e";
+}
+
+/* line 766, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-loading2:before {
+  content: "\f17f";
+}
+
+/* line 772, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-location:before {
+  content: "\f180";
+}
+
+/* line 778, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-locked:before {
+  content: "\f181";
+}
+
+/* line 784, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-logout:before {
+  content: "\f182";
+}
+
+/* line 790, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-mail1:before {
+  content: "\f183";
+}
+
+/* line 796, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-mail2:before {
+  content: "\f184";
+}
+
+/* line 802, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-maintenance-support:before {
+  content: "\f185";
+}
+
+/* line 808, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-meetings:before {
+  content: "\f186";
+}
+
+/* line 814, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-menu:before {
+  content: "\f187";
+}
+
+/* line 820, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-microphone:before {
+  content: "\f188";
+}
+
+/* line 826, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-milestone:before {
+  content: "\f189";
+}
+
+/* line 832, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-minus1:before {
+  content: "\f18a";
+}
+
+/* line 838, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-minus2:before {
+  content: "\f18b";
+}
+
+/* line 844, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-mobile:before {
+  content: "\f18c";
+}
+
+/* line 850, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-modules:before {
+  content: "\f18d";
+}
+
+/* line 856, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-more:before {
+  content: "\f18e";
+}
+
+/* line 862, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-move:before {
+  content: "\f18f";
+}
+
+/* line 868, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-movie:before {
+  content: "\f190";
+}
+
+/* line 874, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-music:before {
+  content: "\f191";
+}
+
+/* line 880, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-new-planning-element:before {
+  content: "\f192";
+}
+
+/* line 886, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-news:before {
+  content: "\f193";
+}
+
+/* line 892, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-no-hierarchy:before {
+  content: "\f194";
+}
+
+/* line 898, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-no-zen-mode:before {
+  content: "\f195";
+}
+
+/* line 904, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-not-supported:before {
+  content: "\f196";
+}
+
+/* line 910, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-notes:before {
+  content: "\f197";
+}
+
+/* line 916, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-openid:before {
+  content: "\f198";
+}
+
+/* line 922, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-openproject:before {
+  content: "\f199";
+}
+
+/* line 928, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ordered-list:before {
+  content: "\f19a";
+}
+
+/* line 934, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-outline:before {
+  content: "\f19b";
+}
+
+/* line 940, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-paragraph-left:before {
+  content: "\f19c";
+}
+
+/* line 946, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-paragraph-right:before {
+  content: "\f19d";
+}
+
+/* line 952, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-paragraph:before {
+  content: "\f19e";
+}
+
+/* line 958, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-payment-history:before {
+  content: "\f19f";
+}
+
+/* line 964, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-phone:before {
+  content: "\f1a0";
+}
+
+/* line 970, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-pin:before {
+  content: "\f1a1";
+}
+
+/* line 976, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-play:before {
+  content: "\f1a2";
+}
+
+/* line 982, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-plugins:before {
+  content: "\f1a3";
+}
+
+/* line 988, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-plus:before {
+  content: "\f1a4";
+}
+
+/* line 994, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-pre:before {
+  content: "\f1a5";
+}
+
+/* line 1000, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-presentation:before {
+  content: "\f1a6";
+}
+
+/* line 1006, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-preview:before {
+  content: "\f1a7";
+}
+
+/* line 1012, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-print:before {
+  content: "\f1a8";
+}
+
+/* line 1018, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-priority:before {
+  content: "\f1a9";
+}
+
+/* line 1024, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-project-types:before {
+  content: "\f1aa";
+}
+
+/* line 1030, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-projects:before {
+  content: "\f1ab";
+}
+
+/* line 1036, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-publish:before {
+  content: "\f1ac";
+}
+
+/* line 1042, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-pulldown-up:before {
+  content: "\f1ad";
+}
+
+/* line 1048, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-pulldown:before {
+  content: "\f1ae";
+}
+
+/* line 1054, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-quote:before {
+  content: "\f1af";
+}
+
+/* line 1060, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-quote2:before {
+  content: "\f1b0";
+}
+
+/* line 1066, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-redo:before {
+  content: "\f1b1";
+}
+
+/* line 1072, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-relation-follows:before {
+  content: "\f1b2";
+}
+
+/* line 1078, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-relation-new-child:before {
+  content: "\f1b3";
+}
+
+/* line 1084, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-relation-precedes:before {
+  content: "\f1b4";
+}
+
+/* line 1090, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-relations:before {
+  content: "\f1b5";
+}
+
+/* line 1096, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-reload:before {
+  content: "\f1b6";
+}
+
+/* line 1102, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-reminder:before {
+  content: "\f1b7";
+}
+
+/* line 1108, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-remove:before {
+  content: "\f1b8";
+}
+
+/* line 1114, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-rename:before {
+  content: "\f1b9";
+}
+
+/* line 1120, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-reported-by-me:before {
+  content: "\f1ba";
+}
+
+/* line 1126, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-resizer-bottom-right:before {
+  content: "\f1bb";
+}
+
+/* line 1132, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-resizer-vertical-lines:before {
+  content: "\f1bc";
+}
+
+/* line 1138, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-roadmap:before {
+  content: "\f1bd";
+}
+
+/* line 1144, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-rss:before {
+  content: "\f1be";
+}
+
+/* line 1150, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-rubber:before {
+  content: "\f1bf";
+}
+
+/* line 1156, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-save:before {
+  content: "\f1c0";
+}
+
+/* line 1162, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-search:before {
+  content: "\f1c1";
+}
+
+/* line 1168, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-send-mail:before {
+  content: "\f1c2";
+}
+
+/* line 1174, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-server-key:before {
+  content: "\f1c3";
+}
+
+/* line 1180, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-settings:before {
+  content: "\f1c4";
+}
+
+/* line 1186, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-settings2:before {
+  content: "\f1c5";
+}
+
+/* line 1192, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-settings3:before {
+  content: "\f1c6";
+}
+
+/* line 1198, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-settings4:before {
+  content: "\f1c7";
+}
+
+/* line 1204, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-shortcuts:before {
+  content: "\f1c8";
+}
+
+/* line 1210, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-show-all-projects:before {
+  content: "\f1c9";
+}
+
+/* line 1216, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-show-more-horizontal:before {
+  content: "\f1ca";
+}
+
+/* line 1222, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-show-more:before {
+  content: "\f1cb";
+}
+
+/* line 1228, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-slack:before {
+  content: "\f1cc";
+}
+
+/* line 1234, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-sort-ascending:before {
+  content: "\f1cd";
+}
+
+/* line 1240, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-sort-by:before {
+  content: "\f1ce";
+}
+
+/* line 1246, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-sort-descending:before {
+  content: "\f1cf";
+}
+
+/* line 1252, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-sort-down:before {
+  content: "\f1d0";
+}
+
+/* line 1258, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-sort-up:before {
+  content: "\f1d1";
+}
+
+/* line 1264, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-square:before {
+  content: "\f1d2";
+}
+
+/* line 1270, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-star:before {
+  content: "\f1d3";
+}
+
+/* line 1276, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-status-reporting:before {
+  content: "\f1d4";
+}
+
+/* line 1282, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-status:before {
+  content: "\f1d5";
+}
+
+/* line 1288, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-strike-through:before {
+  content: "\f1d6";
+}
+
+/* line 1294, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-text:before {
+  content: "\f1d7";
+}
+
+/* line 1300, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ticket-checked:before {
+  content: "\f1d8";
+}
+
+/* line 1306, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ticket-down:before {
+  content: "\f1d9";
+}
+
+/* line 1312, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ticket-edit:before {
+  content: "\f1da";
+}
+
+/* line 1318, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ticket-minus:before {
+  content: "\f1db";
+}
+
+/* line 1324, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ticket-note:before {
+  content: "\f1dc";
+}
+
+/* line 1330, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-ticket:before {
+  content: "\f1dd";
+}
+
+/* line 1336, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-time:before {
+  content: "\f1de";
+}
+
+/* line 1342, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-to-fullscreen:before {
+  content: "\f1df";
+}
+
+/* line 1348, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-training-consulting:before {
+  content: "\f1e0";
+}
+
+/* line 1354, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-two-factor-authentication:before {
+  content: "\f1e1";
+}
+
+/* line 1360, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-types:before {
+  content: "\f1e2";
+}
+
+/* line 1366, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-underline:before {
+  content: "\f1e3";
+}
+
+/* line 1372, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-undo:before {
+  content: "\f1e4";
+}
+
+/* line 1378, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-unit:before {
+  content: "\f1e5";
+}
+
+/* line 1384, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-unlocked:before {
+  content: "\f1e6";
+}
+
+/* line 1390, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-unordered-list:before {
+  content: "\f1e7";
+}
+
+/* line 1396, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-unwatched:before {
+  content: "\f1e8";
+}
+
+/* line 1402, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-upload:before {
+  content: "\f1e9";
+}
+
+/* line 1408, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-user-minus:before {
+  content: "\f1ea";
+}
+
+/* line 1414, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-user-plus:before {
+  content: "\f1eb";
+}
+
+/* line 1420, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-user:before {
+  content: "\f1ec";
+}
+
+/* line 1426, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-view-card:before {
+  content: "\f1ed";
+}
+
+/* line 1432, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-view-fullscreen:before {
+  content: "\f1ee";
+}
+
+/* line 1438, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-view-list:before {
+  content: "\f1ef";
+}
+
+/* line 1444, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-view-model:before {
+  content: "\f1f0";
+}
+
+/* line 1450, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-view-split:before {
+  content: "\f1f1";
+}
+
+/* line 1456, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-view-split2:before {
+  content: "\f1f2";
+}
+
+/* line 1462, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-view-timeline:before {
+  content: "\f1f3";
+}
+
+/* line 1468, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-warning:before {
+  content: "\f1f4";
+}
+
+/* line 1474, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-watched:before {
+  content: "\f1f5";
+}
+
+/* line 1480, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-wiki-edit:before {
+  content: "\f1f6";
+}
+
+/* line 1486, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-wiki:before {
+  content: "\f1f7";
+}
+
+/* line 1492, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-wiki2:before {
+  content: "\f1f8";
+}
+
+/* line 1498, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-work-packages:before {
+  content: "\f1f9";
+}
+
+/* line 1504, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-workflow:before {
+  content: "\f1fa";
+}
+
+/* line 1510, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-yes:before {
+  content: "\f1fb";
+}
+
+/* line 1516, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-zen-mode:before {
+  content: "\f1fc";
+}
+
+/* line 1522, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-zoom-auto:before {
+  content: "\f1fd";
+}
+
+/* line 1528, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-zoom-in:before {
+  content: "\f1fe";
+}
+
+/* line 1534, app/assets/stylesheets/fonts/_openproject_icon_definitions.scss */
+.icon-zoom-out:before {
+  content: "\f1ff";
+}
+
+/* line 13, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.tablesorter-header {
+  cursor: pointer;
+}
+
+/* line 17, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.tablesorter-headerDesc .generic-table--sort-header span:after {
+  font-family: "openproject-icon-font" !important;
+  font-weight: normal !important;
+  speak: none;
+  margin-left: 5px;
+  font-size: 1.2em;
+  line-height: 1;
+  vertical-align: text-bottom;
+  content: "\f1cf";
+}
+
+/* line 22, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.tablesorter-headerAsc .generic-table--sort-header span:after {
+  font-family: "openproject-icon-font" !important;
+  font-weight: normal !important;
+  speak: none;
+  margin-left: 5px;
+  font-size: 1.2em;
+  line-height: 1;
+  vertical-align: text-bottom;
+  content: "\f1cd";
+}
+
+/* line 26, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.cost_types {
+  padding-bottom: 3px;
+}
+
+/* line 29, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.cost_types a.active {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Details view*/
+/* line 34, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.detail-report td {
+  text-align: left;
+  vertical-align: top;
+}
+
+/* line 38, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+#query_form fieldset.header_collapsible.collapsible {
+  padding-bottom: 10px;
+}
+
+/* line 43, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+#save_as_form, #delete_form {
+  z-index: 999;
+}
+
+/* line 47, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.form--buttons.-with-button-form {
+  position: relative;
+}
+
+/* line 50, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.form--buttons.-with-button-form .button {
+  margin-bottom: 0;
+}
+
+/* line 53, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+div.button_form {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  left: 100px;
+  position: absolute;
+  padding: 1.0rem;
+  width: 400px;
+}
+
+/* line 64, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.filter {
+  border-radius: 5px;
+}
+
+/* line 69, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.inactive-filter {
+  background-color: #FCE29A !important;
+}
+
+/* line 72, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.advanced-filters--filter-value {
+  white-space: nowrap;
+}
+
+/* line 75, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.filter_radio_option {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 79, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+#add_filter_block {
+  margin-top: 6px;
+}
+
+/* line 82, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+#add_filter_select {
+  margin-bottom: 10px;
+}
+
+/* line 85, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+.advanced-filters--filter-value.-binary {
+  display: flex;
+}
+
+@media only screen and (max-width: 679px) {
+  /* line 91, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+  .group-by--control {
+    margin-top: 10px;
+  }
+  /* line 94, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+  #group-by--rows .group-by--caption,
+  #group-by--columns .group-by--caption {
+    padding: 0 7px;
+  }
+  /* line 98, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+  .group-by--selected-element {
+    display: inline-block;
+    padding-left: 7px;
+  }
+  /* line 102, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+  .group-by--selected-element:before,
+  .group-by--selected-element:after {
+    border-width: 18px 0px 18px 14px;
+    margin-top: -18px;
+  }
+  /* line 107, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+  .group-by--selected-element:first-of-type {
+    margin: 0;
+  }
+  /* line 110, modules/reporting/app/assets/stylesheets/reporting/_reporting.sass */
+  .group-by--selected-element:first-of-type:before {
+    border: none;
+    left: 0;
+  }
+}
+
+/* line 4, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+#group-by--area {
+  margin: 5px 0 10px 0;
+}
+
+/* line 7, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+#group-by--area fieldset {
+  border: none;
+  padding: 0px;
+  margin-bottom: 1em;
+}
+
+/* line 12, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.in_row {
+  display: inline-block;
+  list-style: none;
+  border-width: 0px;
+}
+
+/* line 17, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-element {
+  cursor: move;
+  position: relative;
+  background-color: #767676;
+  padding-left: 14px;
+  margin-left: 18px;
+  min-width: 145px;
+}
+
+/* line 25, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+fieldset.collapsible.header_collapsible legend.in_row {
+  width: inherit;
+  background-image: inherit;
+}
+
+/* line 29, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--container {
+  overflow: hidden;
+}
+
+/* line 32, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--label {
+  margin: 0px;
+  padding: 0px 18px 0 0;
+  min-width: 60px;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: bold;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  cursor: move;
+}
+
+/* line 44, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-element:after, .group-by--selected-element:before {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  border-width: 30px 0px 30px 14px;
+  margin-top: -30px;
+}
+
+/* line 55, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-element:after {
+  border-color: rgba(118, 118, 118, 0);
+  border-left-color: #767676;
+  left: 100%;
+}
+
+/* line 60, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-element:before {
+  border-color: #767676;
+  border-left-color: rgba(118, 118, 118, 0);
+  left: -14px;
+}
+
+/* line 65, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-element:hover:after {
+  border-color: rgba(52, 147, 179, 0);
+  border-left-color: #3493b3;
+}
+
+/* line 69, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-element:hover:before {
+  border-color: #3493b3;
+  border-left-color: rgba(52, 147, 179, 0);
+}
+
+/* line 73, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-element:hover {
+  background-color: #3493B3;
+}
+
+/* line 76, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--remove {
+  line-height: normal;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+/* line 81, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--remove:hover {
+  background-color: #3493B3 !important;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 86, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--control {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 90, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--selected-elements {
+  background-color: #EEE;
+  overflow: hidden;
+}
+
+/* line 94, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--caption {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #4B4B4B;
+  font-weight: bold;
+  padding: 0 7px;
+  margin: 0;
+  height: inherit;
+  line-height: 36px;
+  min-width: 55px;
+  overflow: visible;
+}
+
+/* line 106, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--caption:after {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* line 116, modules/reporting/app/assets/stylesheets/reporting/_reporting_group_by.sass */
+.group-by--caption:after {
+  border-color: rgba(75, 75, 75, 0);
+  border-left-color: #4B4B4B;
+  border-width: 30px 0px 30px 14px;
+  margin-top: -30px;
+  z-index: 10;
+}
+
+/* line 1, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table {
+  margin: 10px 0;
+  overflow-x: auto;
+}
+
+/* line 7, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .generic-table--results-container tfoot td {
+  width: 150px;
+}
+
+/* line 9, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .generic-table--results-container tfoot .generic-table--footer-outer {
+  width: inherit;
+}
+
+/* line 13, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report {
+  text-align: center;
+  border-collapse: collapse;
+  border: solid 1px #ccc !important;
+  width: auto !important;
+}
+
+/* line 19, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report td, #result-table .report th {
+  min-width: 90px;
+  white-space: nowrap;
+}
+
+/* line 23, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report td {
+  border: dotted 1px #ddd;
+  color: #666;
+  text-align: center;
+  padding: 0 8px 0 8px;
+  line-height: 2rem;
+  vertical-align: middle;
+}
+
+/* line 31, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report tbody th, #result-table .report tbody td, #result-table .report .inner {
+  max-width: 300px;
+  white-space: normal !important;
+}
+
+/* line 35, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report td:hover {
+  color: #000;
+  outline: #ccc 1px solid;
+  outline-offset: 1px;
+}
+
+/* line 40, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report td.empty:hover {
+  outline: none;
+}
+
+/* line 43, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report th {
+  border: solid 1px #ccc;
+  background-color: #e3e3e3;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 34px;
+  padding: 0 8px 0 8px;
+}
+
+/* line 51, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .odd th.inner {
+  background-color: #e8e8e8;
+}
+
+/* line 54, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .even th.inner {
+  background-color: #e3e3e3;
+}
+
+/* line 57, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report th.inner {
+  border: solid 1px #ccc;
+  background-color: #efefef;
+  text-align: right;
+}
+
+/* line 62, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .odd td.inner {
+  background-color: #e8e8e8;
+}
+
+/* line 65, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .even td.inner {
+  background-color: #e3e3e3;
+}
+
+/* line 68, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report tr:hover .inner,
+#result-table .report tr:hover .bottom,
+#result-table .report tr:hover .empty,
+#result-table .report tr:hover .right {
+  background-color: #f5f5c5 !important;
+}
+
+/* line 74, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .top {
+  border-top-style: solid;
+  border-top-color: #ccc;
+}
+
+/* line 78, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .bottom {
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+}
+
+/* line 82, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report td.penultimate {
+  border-right-style: solid;
+}
+
+/* line 85, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report thead .inner, #result-table .report tfoot .inner {
+  text-align: right;
+  padding-right: 5px;
+}
+
+/* line 89, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .result {
+  font-size: 120%;
+  text-align: right;
+}
+
+/* line 93, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .thead tr:hover .inner, #result-table .report tfoot tr:hover .inner {
+  background-color: #efefef;
+}
+
+/* line 96, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .left {
+  text-align: left !important;
+  padding-left: 5px;
+}
+
+/* line 100, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+#result-table .report .right {
+  text-align: right !important;
+  padding-right: 5px;
+}
+
+/* line 104, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+td .drill_down, th .drill_down {
+  font-size: 8px;
+  display: block;
+  float: right;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+/* line 111, modules/reporting/app/assets/stylesheets/reporting/_reporting_table.sass */
+td:hover .drill_down, th:hover .drill_down {
+  visibility: visible;
+}
+
+@media print {
+  /* line 3, modules/reporting/app/assets/stylesheets/reporting/_reporting_table_print.sass */
+  #query_form .form--fieldset:not(#filters) {
+    display: none;
+  }
+  /* line 6, modules/reporting/app/assets/stylesheets/reporting/_reporting_table_print.sass */
+  #main {
+    overflow: visible;
+  }
+}

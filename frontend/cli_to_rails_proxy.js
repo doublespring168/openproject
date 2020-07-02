@@ -1,7 +1,7 @@
 var PROXY_CONFIG = [
   {
     "context": ['/**'],
-    "target": "http://localhost:3000",
+    "target": "http://192.168.0.100:3006",
     "secure": false
     // "bypass": function (req, res, proxyOptions) {
     // }

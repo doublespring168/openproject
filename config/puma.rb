@@ -11,7 +11,7 @@ threads threads_min_count, threads_max_count
 #
 # port ENV.fetch("PORT") { 3300 }
 # bind 'tcp://192.168.0.100:3000'
-bind 'tcp://127.0.0.1:3000'
+bind 'tcp://0.0.0.0:3000'
 
 # Specifies the `environment` that Puma will run in.
 #

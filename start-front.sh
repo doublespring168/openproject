@@ -1,5 +1,4 @@
 #!/bin/bash
-RAILS_ENV=development npm run serve
+#RAILS_ENV=development npm run serve
 
-#cd frontend && ng serve
-
+cd frontend && ng serve --host 0.0.0.0 > /dev/null 2>&1 &

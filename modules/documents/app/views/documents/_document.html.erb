@@ -27,9 +27,6 @@ See docs/COPYRIGHT.rdoc for more details.
 
 ++#%>
 
-<h4 class="document-category-elements--header"><%= link_to h(document.title), :controller => '/documents', :action => 'show', :id => document %></h4>
-<p class="document-category-elements--date"><em><%= format_time(document.updated_on) %></em></p>
+<h4 class="document-category-elements--header"><%= link_to h(document.title), :controller => '/documents', :action => 'show', :id => document %> &ensp;
+  -> &ensp;<%= format_time(document.updated_on) %>，<%= format_text(truncate_lines(document.description)) %></h4>
 
-<div class="wiki">
-	<%= format_text(truncate_lines(document.description)) %>
-</div>

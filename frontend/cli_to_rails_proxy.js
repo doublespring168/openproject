@@ -1,7 +1,7 @@
 var PROXY_CONFIG = [
   {
     "context": ['/**'],
-    "target": "http://192.168.75.58:3000",
+    "target": "http://192.168.3.113:3000",
     "secure": false
     // "bypass": function (req, res, proxyOptions) {
     // }

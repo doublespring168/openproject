@@ -28,7 +28,7 @@
 #++
 
 module FrontendAssetHelper
-  CLI_DEFAULT_PROXY = 'http://192.168.75.58:4200'.freeze
+  CLI_DEFAULT_PROXY = 'http://192.168.3.113:4200'.freeze
 
   def self.assets_proxied?
     !Rails.env.production? && cli_proxy?

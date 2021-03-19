@@ -1,4 +1,15 @@
 #!/bin/bash
-OPENPROJECT_CLI_PROXY='' ./bin/rails s -b 0.0.0.0 -p 3000
+
+
+source ./common_util.sh
+usage_template="sh $0 branch-name"
+
+
+branch=$1
+
+empty $branch 'branch name'
+
+
+git checkout -b $branch origin/$branch
 
 

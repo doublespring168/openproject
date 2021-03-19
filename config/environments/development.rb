@@ -30,8 +30,8 @@
 OpenProject::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  config.hosts = "pm.doublespring.top"
-
+  config.hosts << "pm.doublespring.top"
+  config.hosts << "192.168.3.89"
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development

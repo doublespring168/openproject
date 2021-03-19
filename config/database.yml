@@ -41,7 +41,7 @@ development:
   pool: 5
   username: oppj
   password: oppj
-  host: 192.168.3.113
+  host: 192.168.3.89
   port: 5436
 
 # Warning: The database defined as "test" will be erased and
